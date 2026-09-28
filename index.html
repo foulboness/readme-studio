@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>README STUDIO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="topbar">
+      <a href="#" class="logo">README STUDIO</a>
+
+      <div class="top-status">
+        <span class="status-dot"></span>
+        GITHUB
+      </div>
+
+      <button class="export-btn" id="downloadBtn">↓ EXPORT .MD</button>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-tag">✦ GITHUB README BUILDER</div>
+
+        <h1>
+          BUILD YOUR<br />
+          <span>README.</span>
+        </h1>
+
+        <p>
+          A tiny workshop for creating cute, polished, copy-paste-ready GitHub
+          README sections.
+        </p>
+      </section>
+
+      <!-- TEMPLATE BAR -->
+      <section class="templates-section">
+        <div class="section-label">
+          <span>01</span>
+          CHOOSE A STYLE
+        </div>
+
+        <div class="template-grid">
+          <button class="template active" data-template="soft">
+            SOFT GIRL
+          </button>
+
+          <button class="template" data-template="brutal">NEO BRUTAL</button>
+
+          <button class="template" data-template="arcade">ARCADE</button>
+
+          <button class="template" data-template="gothic">GOTHIC</button>
+
+          <button class="template" data-template="terminal">TERMINAL</button>
+
+          <button class="template" data-template="oldweb">OLD WEB</button>
+        </div>
+      </section>
+
+      <!-- BUILDER -->
+      <section class="builder">
+        <!-- LEFT -->
+        <div class="editor">
+          <div class="section-label">
+            <span>02</span>
+            YOUR INFORMATION
+          </div>
+
+          <!-- PROFILE -->
+          <div class="panel">
+            <div class="panel-header">
+              <h2>PROFILE HEADER</h2>
+              <span>01</span>
+            </div>
+
+            <label>
+              NAME
+              <input
+                type="text"
+                id="nameInput"
+                placeholder="Miksha"
+                value="Miksha"
+              />
+            </label>
+
+            <label>
+              TAGLINE
+              <input
+                type="text"
+                id="taglineInput"
+                placeholder="web developer · ui/ux designer"
+                value="web developer · ui/ux designer"
+              />
+            </label>
+
+            <label>
+              LOCATION
+              <input
+                type="text"
+                id="locationInput"
+                placeholder="Johannesburg, South Africa"
+                value="Johannesburg, South Africa"
+              />
+            </label>
+
+            <label>
+              CURRENTLY
+              <textarea
+                id="currentlyInput"
+                placeholder="what are you working on?"
+              >
+building cute websites & learning TypeScript</textarea
+              >
+            </label>
+          </div>
+
+          <!-- ABOUT -->
+          <div class="panel">
+            <div class="panel-header">
+              <h2>ABOUT ME</h2>
+              <span>02</span>
+            </div>
+
+            <textarea
+              id="aboutInput"
+              placeholder="Tell people a little about yourself..."
+            >
+I'm a web developer and UI/UX designer who enjoys turning ideas into creative digital experiences.</textarea
+            >
+          </div>
+
+          <!-- STACK -->
+          <div class="panel">
+            <div class="panel-header">
+              <h2>TECH STACK</h2>
+              <span>03</span>
+            </div>
+
+            <div class="stack-input">
+              <input
+                type="text"
+                id="techInput"
+                placeholder="HTML, CSS, JavaScript..."
+              />
+
+              <button id="addTech">+ ADD</button>
+            </div>
+
+            <div class="chips" id="techList"></div>
+          </div>
+
+          <!-- CURRENTLY -->
+          <div class="panel">
+            <div class="panel-header">
+              <h2>GOALS</h2>
+              <span>04</span>
+            </div>
+
+            <textarea id="goalsInput" placeholder="Add your current goals...">
+- Build more creative websites
+- Improve my JavaScript skills
+- Learn more about UI/UX</textarea
+            >
+          </div>
+
+          <!-- SOCIALS -->
+          <div class="panel">
+            <div class="panel-header">
+              <h2>SOCIALS</h2>
+              <span>05</span>
+            </div>
+
+            <label>
+              GITHUB
+              <input
+                type="text"
+                id="githubInput"
+                placeholder="github.com/username"
+                value="github.com/foulboness"
+              />
+            </label>
+
+            <label>
+              WEBSITE
+              <input
+                type="text"
+                id="websiteInput"
+                placeholder="yourwebsite.com"
+              />
+            </label>
+
+            <label>
+              X / TWITTER
+              <input type="text" id="twitterInput" placeholder="@username" />
+            </label>
+          </div>
+
+          <!-- PROJECT -->
+          <div class="panel">
+            <div class="panel-header">
+              <h2>PROJECT CARD</h2>
+              <span>06</span>
+            </div>
+
+            <label>
+              PROJECT NAME
+              <input type="text" id="projectName" placeholder="Palette Room" />
+            </label>
+
+            <label>
+              DESCRIPTION
+              <textarea
+                id="projectDescription"
+                placeholder="What does it do?"
+              ></textarea>
+            </label>
+
+            <label>
+              TECHNOLOGIES
+              <input
+                type="text"
+                id="projectTech"
+                placeholder="React · TypeScript · Vite"
+              />
+            </label>
+
+            <div class="project-links">
+              <input type="text" id="demoLink" placeholder="Live Demo URL" />
+
+              <input type="text" id="repoLink" placeholder="GitHub URL" />
+            </div>
+
+            <button class="add-project" id="addProject">
+              + ADD PROJECT TO README
+            </button>
+          </div>
+
+          <!-- BADGES -->
+          <div class="panel">
+            <div class="panel-header">
+              <h2>BADGE BUILDER</h2>
+              <span>07</span>
+            </div>
+
+            <div class="badge-grid">
+              <button class="badge-option" data-badge="HTML">HTML</button>
+              <button class="badge-option" data-badge="CSS">CSS</button>
+              <button class="badge-option" data-badge="JavaScript">
+                JavaScript
+              </button>
+              <button class="badge-option" data-badge="TypeScript">
+                TypeScript
+              </button>
+              <button class="badge-option" data-badge="React">React</button>
+              <button class="badge-option" data-badge="Python">Python</button>
+              <button class="badge-option" data-badge="Git">Git</button>
+              <button class="badge-option" data-badge="GitHub">GitHub</button>
+              <button class="badge-option" data-badge="Figma">Figma</button>
+              <button class="badge-option" data-badge="Node.js">Node.js</button>
+              <button class="badge-option" data-badge="Vercel">Vercel</button>
+              <button class="badge-option" data-badge="Netlify">Netlify</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="preview-area">
+          <div class="preview-header">
+            <div>
+              <span class="preview-small">03</span>
+              <h2>LIVE PREVIEW</h2>
+            </div>
+
+            <button id="copyBtn">COPY MARKDOWN</button>
+          </div>
+
+          <div class="preview-window">
+            <div class="window-bar">
+              <div class="window-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <span>README.md</span>
+            </div>
+
+            <div class="readme-preview" id="preview"></div>
+          </div>
+
+          <div class="markdown-box">
+            <div class="markdown-header">
+              <span>RAW MARKDOWN</span>
+
+              <button id="copyRaw">COPY</button>
+            </div>
+
+            <pre id="rawMarkdown"></pre>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- TOAST -->
+    <div class="toast" id="toast">COPIED ♡</div>
+
+    <footer>
+      <div>README STUDIO</div>
+
+      <p>made for little corners of the internet ♡</p>
+
+      <div>2026</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
