@@ -8,71 +8,22 @@ Pick a style, add your details, customize your sections, and copy your finished 
 
 ---
 
-## ✿ what is it?
+## what is it?
 
 **README STUDIO** is a front-end project designed to make GitHub profile customization easier, more creative, and a little more fun.
 
 Instead of building everything from scratch, you can create things like:
 
-* ♡ profile introductions
-* ✦ about me sections
-* 🎀 tech stack lists
-* 🌷 project showcases
-* ☁️ currently learning sections
-* 🎮 status / mood cards
-* 💌 social links
-* ★ GitHub stats sections
-* ✎ custom quote blocks
-* ♡ cute dividers & decorations
-
----
-
-## 🎀 styles
-
-Choose the look that matches your little corner of the internet.
-
-```text
-♡ SOFT
-minimal · pastel · cozy
-
-✦ ARCADE
-pixel · playful · game-inspired
-
-☾ MIDNIGHT
-dark · monochrome · slightly gothic
-
-୨୧ CUTE
-pink · bubbly · decorative
-
-▣ MINIMAL
-clean · simple · developer-focused
-```
-
-More styles can be added as the studio grows.
-
----
-
-## ✦ features
-
-### README BUILDER
-
-Build your README section by section instead of starting with a blank page.
-
-### STYLE PRESETS
-
-Switch between different visual personalities with a single click.
-
-### LIVE PREVIEW
-
-See how your README will look while you build it.
-
-### COPY TO GITHUB
-
-Generate Markdown and copy it directly to your clipboard.
-
-### CUSTOM SECTIONS
-
-Mix and match sections to create something that actually feels personal.
+* profile introductions
+* about me sections
+* tech stack lists
+* project showcases
+* currently learning sections
+* status / mood cards
+* social links
+* GitHub stats sections
+* custom quote blocks
+* cute dividers & decorations
 
 ---
 
@@ -82,20 +33,14 @@ Built with simple web technologies:
 
 **HTML** · **CSS** · **JavaScript**
 
-No complicated setup.
-No accounts.
-No database.
-
-Just a tiny creative tool for developers. ♡
-
 ---
 
-## ✿ getting started
+## getting started
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/readme-studio.git
+git clone https://github.com/foulboness/readme-studio.git
 ```
 
 Open the project:
