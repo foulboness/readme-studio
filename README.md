@@ -27,7 +27,7 @@ Instead of building everything from scratch, you can create things like:
 
 ---
 
-## ♡ tech stack
+## tech stack
 
 Built with simple web technologies:
 
@@ -57,29 +57,11 @@ index.html
 
 in your browser.
 
-That's it! 🎀
+That's it!
 
 ---
 
-## ★ project structure
-
-```text
-README-STUDIO/
-│
-├── index.html
-├── style.css
-├── script.js
-│
-├── assets/
-│   ├── icons/
-│   └── decorations/
-│
-└── README.md
-```
-
----
-
-## ☁️ how it works
+## how it works
 
 ```text
 choose a style
@@ -99,52 +81,9 @@ paste it into GitHub ♡
 
 ---
 
-## 🌷 ideas for future versions
-
-* more README themes
-* custom color palettes
-* drag & drop sections
-* Markdown export
-* reusable templates
-* GitHub profile preview
-* more decorative elements
-* badges & tech-stack generator
-* custom ASCII headers
-* saved local templates
-
----
-
-## ♡ why?
-
-Your GitHub profile doesn't have to look like a boring document.
-
-It can be a **tiny personal website**, a portfolio, a moodboard, a developer card, or simply a place that feels like you.
-
-README Studio exists to make that part a little easier.
-
-> **code your README. make it yours. ♡**
-
----
-
-## ୨୧ made with love
-
-Created as a small front-end experiment exploring:
-
-**web design · UI/UX · Markdown · developer tools · creative interfaces**
-
-```text
-╭────────────────────────────╮
-│  README STUDIO             │
-│                            │
-│  make your GitHub cute ♡   │
-╰────────────────────────────╯
-```
-
-### ✦ credits
+### credits
 
 **Designed & coded by Miksha**
-
-♡ built with HTML, CSS & JavaScript
 
 ---
 
